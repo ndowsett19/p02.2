@@ -26,3 +26,12 @@ def run_tests():
 
 # Edit this code
 def test_case(s):
+
+    if s == s.upper():
+        print("Upper")
+
+    elif s == s.lower():
+        print("Lower")
+
+    else:
+        print("Mixed")

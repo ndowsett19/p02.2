@@ -38,3 +38,12 @@ def run_tests():
 # Edit this code
 def on_track(target, grade):
 
+        if target > grade:
+            print("Above Target")
+
+        elif target < grade:
+            print("Below Target")
+
+        else:
+            print("On Target")
+

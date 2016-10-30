@@ -40,3 +40,12 @@ def run_tests():
 # Edit this code
 def dictionary(word1, word2):
 
+    if word1.lower() < word2.lower():
+        print("Go back!")
+
+    elif word1.lower() > word2.lower():
+        print("Keep going")
+
+    else:
+        print("You're there!")
+
